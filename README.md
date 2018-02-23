@@ -2,7 +2,7 @@
 
 ## Integer Multiplication Algorithms 
 
-* Karastuba's Algorithm \Theta
+* Karastuba's Algorithm ###\Theta
 
 ## Greedy/Graph Algorithms
 
