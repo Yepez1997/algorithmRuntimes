@@ -5,12 +5,24 @@ Feel free to add if encountered
 * ^ denotes superscript 
 * If not log base is present, assume log base === 2 
 
+## Asymtotic Notations 
+Here is just a brief touch on asymtotics
+Given functions f and g 
+
+|  Asymtotic | Rough Meaning | Note 
+| ------------- | ------------- | ------------- |
+|  Oh         | f <= g      | f is less than or equal to g     |
+|  Omega      |  f >= g     |  f is greater than or equal to g | 
+|  Theta      | f = g       |  f is equal to g     | 
+|  Little Oh  | f < g       |  f is strictly less than  g  |
+|  Little Omega  | f > g    |  f is strictly greater than  g    | 
+
 ## Integer Multiplication Algorithms 
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
 |  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |               |
-|  Strassen     | O(n ^ log(7)) ~ (n ^ (2.807)))        |               | 
+|  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))        |               | 
 
 
 ## Greedy/Graph Algorithms
