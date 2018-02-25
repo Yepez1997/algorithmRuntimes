@@ -18,19 +18,18 @@ If not log base is present, assume log base === 2
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Dijkstra           | Content Cell  |               |
-| Prim               | Content Cell  |               |
-| Kruskal            | Content Cell  |               |
-| Depth First Search |      |               |
-| Flloyd Warshall    | Content Cell  |               |
-| Breadth First Search | Content Cell  |               |
-| Bellman Ford        | Content Cell  |               |
-| Ford Fulkerson      | Content Cell  |               |
-| Ford Fulkerson      | Content Cell  |               |
-| Wildest Paths/Bottleneck   | Content Cell  |               |
-| Kosaraju  | Content Cell  |               |
-| Topological Sort  | Content Cell  |               |
-| Edmonds Karp  | O(V * E^2)  |               |
+| Dijkstra           | Content   |               |
+| Prim               | Content   |               |
+| Kruskal            | Content   |               |
+| Depth First Search |           |               |
+| Flloyd Warshall    | Content   |               |
+| Breadth First Search | Content  |               |
+| Bellman Ford        | Content | Allows negative, no negative cycles |
+| Ford Fulkerson      | Content  |               |
+| Wildest Paths/Bottleneck       | Content  |               |
+| Kosaraju             | Content  |               |
+| Topological Sort    | Content |               |
+| Edmonds Karp      | O(V * E^2)  |               |
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -41,15 +40,15 @@ O(n + m) and the space complexity is O(n + m).
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Radix Sort    | Content Cell  |               |
-| Bucket Sort  | Content Cell  |               |
-| Cyborg Sort  | Content Cell  |               |
-| Merge Sort   |   O(n * log(n))     |               |
-| Insertion Sort  | Content Cell  |               |
-| Selection Sort  | Content Cell  |               |
-| Counting Sort   | Content Cell  |               |
-| Heap Sort     | Content Cell  |               |
-| Quick Sort     | Content Cell  |               |
+| Radix Sort    | Content  |               |
+| Bucket Sort    | Content |               |
+| Cyborg Sort    | Content |               |
+| Merge Sort     |   O(n * log(n))     |               |
+| Insertion Sort  | Content |               |
+| Selection Sort  | Content |               |
+| Counting Sort   | Content |               |
+| Heap Sort      | Content |               |
+| Quick Sort     | Content |               |
 
 ## Master Theorom (Recurrences)
 
