@@ -1,8 +1,8 @@
 # Algorithm Runtimes (In Progress) 
 
 Feel free to add if encountered 
-* {} =  denotes subscript 
-* ^ = denotes superscript 
+* {} denotes subscript 
+* ^ denotes superscript 
 * If not log base is present, assume log base === 2 
 
 ## Integer Multiplication Algorithms 
