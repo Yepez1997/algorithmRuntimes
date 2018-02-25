@@ -10,7 +10,7 @@ Feel free to add if encountered
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
 |  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |               |
-|  Strassen     | O(n ^ log(7)) ~ (n ^ (2.807))        |               | 
+|  Strassen     | O(n ^ log(7)) ~ (n ^ (2.807)))        |               | 
 
 
 ## Greedy/Graph Algorithms
