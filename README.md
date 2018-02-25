@@ -18,7 +18,7 @@ Feel free to add if encountered
 | Dijkstra           | Content Cell  |               |
 | Prim               | Content Cell  |               |
 | Kruskal            | Content Cell  |               |
-| Depth First Search |  O(n * lg(n))     |               |
+| Depth First Search |      |               |
 | Flloyd Warshall    | Content Cell  |               |
 | Breadth First Search | Content Cell  |               |
 | Bellman Ford        | Content Cell  |               |
@@ -41,7 +41,7 @@ O(n + m) and the space complexity is O(n + m).
 | Radix Sort    | Content Cell  |               |
 | Bucket Sort  | Content Cell  |               |
 | Cyborg Sort  | Content Cell  |               |
-| Merge Sort   |  O(nlg(n))     |               |
+| Merge Sort   |   O(n * lg(n))     |               |
 | Insertion Sort  | Content Cell  |               |
 | Selection Sort  | Content Cell  |               |
 | Counting Sort   | Content Cell  |               |
