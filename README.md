@@ -23,7 +23,7 @@ Feel free to add if encountered
 | Kruskal            | Content   |               |
 | Depth First Search |           |               |
 | Flloyd Warshall    | Content   |               |
-| Breadth First Search | Content  |               |
+| Breadth First Search | Content  | Single shortest paths, no weights              |
 | Bellman Ford        | Content | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content  |               |
 | Wildest Paths/Bottleneck       | Content  |               |
@@ -44,11 +44,12 @@ O(n + m) and the space complexity is O(n + m).
 | Bucket Sort    | Content |               |
 | Cyborg Sort    | Content |               |
 | Merge Sort     |   O(n * log(n))     |               |
-| Insertion Sort  | Content |               |
+| Insertion Sort  | O(n^2) |               |
 | Selection Sort  | Content |               |
 | Counting Sort   | Content |               |
 | Heap Sort      | Content |               |
 | Quick Sort     | Content |               |
+| Bucket Sort     | O(n + k) |               |
 
 ## Master Theorom (Recurrences)
 
