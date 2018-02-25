@@ -4,32 +4,41 @@
 
 * Karastuba's Algorithm 
 * Strassen's Algorithm
+| Algorithm  | Runtime | Note 
+| ------------- | ------------- | ------------- |
+|  Karastuba        | Content Cell  |               |
+| Strassen              | Content Cell  |               |
+
 
 ## Greedy/Graph Algorithms
 
-* Dijkstra's Algorithm
-* Prim's Algorithm 
-* Kruskal's Algorithm
-* Depth First Search 
-* Breadth First Search 
-* Flloyd Warshall Algorthm
-* Bellman Ford Algorithm
-* Ford Fulkerson Algorithm 
-* Wildest Paths/ Bottleneck Algorithm
-* Kosaraju's Algorithm (SCC's)
+
+| Algorithm  | Runtime | Note 
+| ------------- | ------------- | ------------- |
+| Dijkstra           | Content Cell  |               |
+| Prim               | Content Cell  |               |
+| Kruskal            | Content Cell  |               |
+| Depth First Search |  O(nlg(n))     |               |
+| Flloyd Warshall    | Content Cell  |               |
+| Breadth First Search | Content Cell  |               |
+| Bellman Ford        | Content Cell  |               |
+| Ford Fulkerson      | Content Cell  |               |
+| Ford Fulkerson      | Content Cell  |               |
+| Wildest Paths/Bottleneck   | Content Cell  |               |
+| Kosaraju  | Content Cell  |               |
 
 ## Sorting Algorithms 
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Radix Sort  | Content Cell  |               |
+| Radix Sort    | Content Cell  |               |
 | Bucket Sort  | Content Cell  |               |
 | Cyborg Sort  | Content Cell  |               |
 | Merge Sort   |  O(nlg(n))     |               |
 | Insertion Sort  | Content Cell  |               |
 | Selection Sort  | Content Cell  |               |
 | Counting Sort   | Content Cell  |               |
-| Heap Sort   | Content Cell  |               |
+| Heap Sort     | Content Cell  |               |
 
 
 
