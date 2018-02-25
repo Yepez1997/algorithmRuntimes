@@ -24,7 +24,7 @@ Feel free to add if encountered
 | Depth First Search |           |               |
 | Flloyd Warshall    | Content   |               |
 | Breadth First Search | Content  |               |
-| Bellman Ford        | Content | Allows negative, no negative cycles |
+| Bellman Ford        | Content | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content  |               |
 | Wildest Paths/Bottleneck       | Content  |               |
 | Kosaraju             | Content  |               |
