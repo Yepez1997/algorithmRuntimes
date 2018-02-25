@@ -21,9 +21,9 @@ Feel free to add if encountered
 | Dijkstra           | Content   |               |
 | Prim               | Content   |               |
 | Kruskal            | Content   |               |
-| Depth First Search |  O(|V| + |E|)        |               |
+| Depth First Search |  O(V + E) | Linked list runtime representation        |
 | Flloyd Warshall    | Content   |               |
-| Breadth First Search | O(|V| + |E|)  | Single shortest paths, no weights              |
+| Breadth First Search | O(V + E)  | Single shortest paths, no weights              |
 | Bellman Ford        | Content | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content  |               |
 | Wildest Paths/Bottleneck       | Content  |               |
