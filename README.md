@@ -3,6 +3,7 @@
 Feel free to add if encountered 
 * {} =  denotes subscript 
 * ^ = denotes superscript
+</br>
 If not log base is present, assume log base === 2 
 
 ## Integer Multiplication Algorithms 
