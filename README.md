@@ -18,7 +18,7 @@ Feel free to add if encountered
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Dijkstra           | Content   |               |
+| Dijkstra           | O(E +(V * log(V))   | Assumes all weights are positive && implemented w/ Fib Heap|
 | Prim               | Content   |               |
 | Kruskal            | Content   |               |
 | Depth First Search |  O(V + E) | Linked list runtime representation        |
