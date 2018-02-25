@@ -3,6 +3,7 @@
 ## Integer Multiplication Algorithms 
 
 * Karastuba's Algorithm 
+* Strassen's Algorithm
 
 ## Greedy/Graph Algorithms
 
@@ -18,13 +19,18 @@
 * Kosaraju's Algorithm (SCC's)
 
 ## Sorting Algorithms 
-* Radix Sort 
-* Bucket Sort
-* Cyborg Sort
-* Merge Sort 
-* Bubble Sort 
-* Insertion Sort
-* Selection Sort
-* Counting Sort 
-* Heap Sort
+
+| Algorithm  | Runtime | Note 
+| ------------- | ------------- | ------------- |
+| Radix Sort  | Content Cell  |               |
+| Bucket Sort  | Content Cell  |               |
+| Cyborg Sort  | Content Cell  |               |
+| Merge Sort   | O(nlg(n))     |               |
+| Insertion Sort  | Content Cell  |               |
+| Selection Sort  | Content Cell  |               |
+| Counting Sort   | Content Cell  |               |
+| Heap Sort   | Content Cell  |               |
+
+
+
 
