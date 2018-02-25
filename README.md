@@ -1,13 +1,16 @@
 # Algorithm Runtimes (In Progress) 
 
 Feel free to add if encountered 
+{} =  denotes subscript 
+^ = denotes superscript
+If not log base is present, assume log base === 2 
 
 ## Integer Multiplication Algorithms 
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-|  Karastuba    | Content Cell  |               |
-|  Strassen     | Content Cell  |               |
+|  Karastuba    | O(n ^ (log{2}(3)) ~ n ^ (1.585) |               |
+|  Strassen     | Content Cell  |               | 
 
 
 ## Greedy/Graph Algorithms
@@ -41,7 +44,7 @@ O(n + m) and the space complexity is O(n + m).
 | Radix Sort    | Content Cell  |               |
 | Bucket Sort  | Content Cell  |               |
 | Cyborg Sort  | Content Cell  |               |
-| Merge Sort   |   O(n * lg(n))     |               |
+| Merge Sort   |   O(n * log(n))     |               |
 | Insertion Sort  | Content Cell  |               |
 | Selection Sort  | Content Cell  |               |
 | Counting Sort   | Content Cell  |               |
