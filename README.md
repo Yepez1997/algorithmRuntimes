@@ -1,5 +1,7 @@
 # Algorithm Runtimes (In Progress) 
 
+Feel free to add if encountered 
+
 ## Integer Multiplication Algorithms 
 
 | Algorithm  | Runtime | Note 
@@ -16,7 +18,7 @@
 | Dijkstra           | Content Cell  |               |
 | Prim               | Content Cell  |               |
 | Kruskal            | Content Cell  |               |
-| Depth First Search |  O(nlg(n))     |               |
+| Depth First Search |  O(n * lg(n))     |               |
 | Flloyd Warshall    | Content Cell  |               |
 | Breadth First Search | Content Cell  |               |
 | Bellman Ford        | Content Cell  |               |
@@ -25,7 +27,12 @@
 | Wildest Paths/Bottleneck   | Content Cell  |               |
 | Kosaraju  | Content Cell  |               |
 | Topological Sort  | Content Cell  |               |
-| Edmonds Karp  | O(VE^2)  |               |
+| Edmonds Karp  | O(V * E^2)  |               |
+
+** Note Graph Algorithms may differ in run time dependending the Data structure used.
+For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
+is used. On the other hand, if implemented with a linked list, access time is at most 
+O(n + m) and the space complexity is O(n + m). 
 
 ## Sorting Algorithms 
 
