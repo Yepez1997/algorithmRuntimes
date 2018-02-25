@@ -41,7 +41,7 @@
 | Heap Sort     | Content Cell  |               |
 | Quick Sort     | Content Cell  |               |
 
-# Master Theorom (Recurrences)
+## Master Theorom (Recurrences)
 
 
 
