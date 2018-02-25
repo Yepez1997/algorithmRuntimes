@@ -2,12 +2,10 @@
 
 ## Integer Multiplication Algorithms 
 
-* Karastuba's Algorithm 
-* Strassen's Algorithm
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-|  Karastuba        | Content Cell  |               |
-| Strassen              | Content Cell  |               |
+|  Karastuba    | Content Cell  |               |
+|  Strassen     | Content Cell  |               |
 
 
 ## Greedy/Graph Algorithms
