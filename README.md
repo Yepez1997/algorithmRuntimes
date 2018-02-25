@@ -6,8 +6,8 @@ Feel free to add if encountered
 * If not log base is present, assume log base === 2 
 
 ## Asymtotic Notations 
-Here is just a brief touch on asymtotics
-Given functions f and g 
+Here is just a brief touch on asymtotics </br>
+### Given functions f and g 
 
 |  Asymtotic | Rough Meaning | Note 
 | ------------- | ------------- | ------------- |
