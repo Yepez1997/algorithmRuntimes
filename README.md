@@ -10,7 +10,7 @@ Feel free to add if encountered
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
 |  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |               |
-|  Strassen     | Content Cell  |               | 
+|  Strassen     | O(n ^ log(7)) ~ (n ^ (2.807))        |               | 
 
 
 ## Greedy/Graph Algorithms
@@ -21,9 +21,9 @@ Feel free to add if encountered
 | Dijkstra           | Content   |               |
 | Prim               | Content   |               |
 | Kruskal            | Content   |               |
-| Depth First Search |           |               |
+| Depth First Search |  O(|V| + |E|)        |               |
 | Flloyd Warshall    | Content   |               |
-| Breadth First Search | Content  | Single shortest paths, no weights              |
+| Breadth First Search | O(|V| + |E|)  | Single shortest paths, no weights              |
 | Bellman Ford        | Content | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content  |               |
 | Wildest Paths/Bottleneck       | Content  |               |
@@ -40,16 +40,14 @@ O(n + m) and the space complexity is O(n + m).
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Radix Sort    | Content  |               |
-| Bucket Sort    | Content |               |
-| Cyborg Sort    | Content |               |
-| Merge Sort     |   O(n * log(n))     |               |
-| Insertion Sort  | O(n^2) |               |
-| Selection Sort  | Content |               |
-| Counting Sort   | Content |               |
-| Heap Sort      | Content |               |
-| Quick Sort     | Content |               |
-| Bucket Sort     | O(n + k) |               |
+| Radix Sort      | O(n * k)        |               |
+| Merge Sort      | O(n * log(n))   |               |
+| Insertion Sort  | O(n^2)          |               |
+| Selection Sort  | O(n^2)          |               |
+| Counting Sort   | O(n + k)        |               |
+| Heap Sort       | O(n * log(n))   |               |
+| Quick Sort      | theta(n * log(n)) |               |
+| Bucket Sort     | theta(n + k)    |               |
 
 ## Master Theorom (Recurrences)
 
