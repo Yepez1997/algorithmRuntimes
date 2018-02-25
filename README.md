@@ -25,7 +25,7 @@
 | Radix Sort  | Content Cell  |               |
 | Bucket Sort  | Content Cell  |               |
 | Cyborg Sort  | Content Cell  |               |
-| Merge Sort   | O(nlg(n))     |               |
+| Merge Sort   |  O(nlg(n))     |               |
 | Insertion Sort  | Content Cell  |               |
 | Selection Sort  | Content Cell  |               |
 | Counting Sort   | Content Cell  |               |
