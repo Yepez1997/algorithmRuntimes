@@ -24,6 +24,8 @@
 | Ford Fulkerson      | Content Cell  |               |
 | Wildest Paths/Bottleneck   | Content Cell  |               |
 | Kosaraju  | Content Cell  |               |
+| Topological Sort  | Content Cell  |               |
+| Edmonds Karp  | O(VE^2)  |               |
 
 ## Sorting Algorithms 
 
@@ -37,6 +39,9 @@
 | Selection Sort  | Content Cell  |               |
 | Counting Sort   | Content Cell  |               |
 | Heap Sort     | Content Cell  |               |
+| Quick Sort     | Content Cell  |               |
+
+# Master Theorom (Recurrences)
 
 
 
