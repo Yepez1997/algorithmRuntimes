@@ -25,22 +25,30 @@ Here is just a brief touch on asymtotics </br>
 |  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))        |               | 
 
 
-## Greedy/Graph Algorithms
-
+## Graph Algorithms
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Dijkstra           | O(E +(V * log(V))   | Assumes all weights are positive && implemented w/ Fib Heap|
-| Prim               | O((N + M) * log(n))  | Assumes binary heap representation               |
-| Kruskal            | Content   |               |
 | Depth First Search |  O(V + E) | Linked list runtime representation        |
 | Flloyd Warshall    | Content   |               |
 | Breadth First Search | O(V + E)  | Single shortest paths, no weights              |
 | Bellman Ford        | Content | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content  |               |
 | Wildest Paths/Bottleneck       | Content  |               |
-| Kosaraju             | Content  |               |
+| Kosaraju             | O(V + E)  |               |
 | Topological Sort    | Content |               |
+| Edmonds Karp      | O(V * E^2)  |               |
+
+## Greedy Algorithms
+
+| Algorithm  | Runtime | Note 
+| ------------- | ------------- | ------------- |
+| Dijkstra           | O(E +(V * log(V))   | Assumes all weights are positive && implemented w/ Fib Heap|
+| Prim               | O((N + M) * log(n))  | Assumes binary heap representation               |
+| Kruskal            | Content   |               |
+| Bellman Ford        | Content | Allows negative weights, no negative cycles |
+| Ford Fulkerson      | Content  |               |
+| Wildest Paths/Bottleneck       | Content  |               |
 | Edmonds Karp      | O(V * E^2)  |               |
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
