@@ -31,7 +31,7 @@ Here is just a brief touch on asymtotics </br>
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
 | Dijkstra           | O(E +(V * log(V))   | Assumes all weights are positive && implemented w/ Fib Heap|
-| Prim               | Content   |               |
+| Prim               | O((N + M) * log(n))  | Assumes binary heap representation               |
 | Kruskal            | Content   |               |
 | Depth First Search |  O(V + E) | Linked list runtime representation        |
 | Flloyd Warshall    | Content   |               |
