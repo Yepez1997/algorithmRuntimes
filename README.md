@@ -9,13 +9,13 @@ Feel free to add if encountered
 Here is just a brief touch on asymtotics </br>
 ### Given functions f and g 
 
-|  Asymtotic | Rough Meaning | Note 
+|  Asymtotic | Rough Meaning | Notation | Note
 | ------------- | ------------- | ------------- |
-|  Oh         |  f <= g      | f is less than or equal to g     |
-|  Omega      |  f >= g      |  f is greater than or equal to g | 
-|  Theta      |  f = g       |  f is equal to g     | 
-|  Little Oh  |  f < g       |  f is strictly less than  g  |
-|  Little Omega  | f > g     |  f is strictly greater than  g    | 
+|  Oh           |  f <= g   |       |  f is less than or equal to g     |
+|  Omega        |  f >= g   |       |  f is greater than or equal to g | 
+|  Theta        |  f = g    |       |  f is equal to g     | 
+|  Little Oh    |  f < g    |       |  f is strictly less than  g  |
+|  Little Omega | f > g     |       |  f is strictly greater than  g    | 
 
 ## Integer Multiplication Algorithms 
 
