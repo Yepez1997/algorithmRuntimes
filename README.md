@@ -97,7 +97,7 @@ O(n + m) and the space complexity is O(n + m).
 | Quick Sort      | theta(n * log(n)) |               
 | Bucket Sort     | theta(n + k)      |               
 
-## Master Theorom (Recurrences)
+## Master Theorem (Recurrences)
 In order for the Master Theorom to yield we must have a Recurrence in the form of: 
 T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 </br>
