@@ -9,6 +9,11 @@ If there exists CONTENT in a box, it needs Content -- working on it
 
 ## Asymtotic Notations 
 Here is just a brief touch on asymtotics </br>
+
+* Exponential time grows faster then polynomial time 
+* Polynomial time grows faster than logarithmic time 
+* Logarithmic time grows faster than logarithmic star time (log*(n){grows very very slowly})
+
 ### Given functions f and g 
 
 |  Asymtotic | Rough Meaning | Notation | Note
@@ -23,7 +28,7 @@ Here is just a brief touch on asymtotics </br>
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-|  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |               |
+|  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |  Python uses Kasastuba's Alg. for multiplication   |
 |  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))     |  Matrix Multiplication            | 
 
 
@@ -36,24 +41,33 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   | O(V + E)   | Linked list    |              | 
-| Flloyd Warshall      | theta(V^3)      | Content              |               |
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
 | Kosaraju             | O(V + E)    | Linked List               | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
 | Topological Sort     | O(V + E)    | Linked List    | Linked List          |
-| Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
+| Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique && all pairs shortest path| 
 | Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
 
+## Dynamic Programming
+
+| Algorithm  | Runtime | Data Stucture | Note 
+| ------------- | ------------- | ------------- | ------------- |
+| Flloyd Warshall      | theta(V^3)      |  Content         |     All pairs shortest paths          |
+
+## Max-flow Algorithms
+| Algorithm  | Runtime | Data Stucture | Note 
+| ------------- | ------------- | ------------- | ------------- |
+| Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
+| Edmonds Karp        | O(VE^2)    |   Content            |             | 
 
 ## Greedy Algorithms
 
 | Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
-| Prim                | O((NM)log(N))  | Binary heap |                               |
+| Prim                | O((NM)log(N))  | Binary heap | Creates Minimum Spanning Tree                              |
 | Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
-| Edmonds Karp        | O(VE^2)    |   Content            |             | 
 | Horn Formulae        | O(NM)    |   Content            |  N is number of variables and M is number of formulas  | 
 | Huffamn Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 
@@ -85,12 +99,8 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 </br>
 
 T(n) is 
+
 </br>
-| Comparison  | Result 
-| ------------- | ------------- | 
-| alpha > beta^k   | theta(n^(log{beta}(alpha))) |       
-| alpha = beta^k   | theta(n^k(log(n)))    |  
-| alpha < beta^k   | theta(n^k)| 
 
 | Comparison | Result  | 
 | ------------- | ------------- | 
@@ -98,6 +108,8 @@ T(n) is
 | alpha = beta^k        | theta(n^k(log(n)))    |               
 | alpha < beta^k  | theta(n^k)           |              
        
+
+** Will soon implement operations and the cost (running time ) for each supported operation in a data structure 
 
 ## Advanced Data Structures 
 
@@ -109,7 +121,8 @@ T(n) is
 #### Fibonacci Heap
 #### van Emde Boas Trees
 #### Disjoint Sets
-#### y-fast tries 
+#### Y-fast tries 
+#### Link Cut Trees 
 
 
 ## Elementary Data Structures 
@@ -124,6 +137,19 @@ T(n) is
 #### Min/Max Priority Queue
 #### Heap
 #### Trie Trees 
+#### Union Find
+#### K-ary heaps 
+
+# Soon to be on here: 
+* Multithreaded Algorithms
+* Amortized Analysis 
+* Schöning's algorithm
+* Möbius inversion
+* Basic NP-Complete 
+* Linear Programming
+* Hashing 
+* Semidefinite programming (maybe)
+
 
 
 
