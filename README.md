@@ -13,7 +13,7 @@ Prove algorithm correctness by Induction, Strong Induction, Contrapositive, etc.
 Take a look at: 
 * {} denotes subscript 
 * ^ denotes superscript 
-* If not log base is present, assume log base === 2 
+* If is not log base is present, assume log base === 2 
 
 ## Asymtotic Notations 
 Here is just a brief touch on asymtotics </br>
