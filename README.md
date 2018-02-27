@@ -27,26 +27,26 @@ Here is just a brief touch on asymtotics </br>
 
 ## Graph Algorithms
 
-| Algorithm  | Runtime | Note 
-| ------------- | ------------- | ------------- |
-| Depth First Search   |  O(V + E)   | Linked list runtime representation     |
-| Flloyd Warshall      | Content     |               |
-| Breadth First Search | O(V + E)    | Single shortest paths, no weights      |
+| Algorithm  | Runtime | Data Stucture Implementated | Note 
+| ------------- | ------------- | ------------- | ------------- |
+| Depth First Search   |  O(V + E)   | Linked list     |
+| Flloyd Warshall      | O(N^3)     |               |
+| Breadth First Search | O(V + E)    |  Linked List  | Single shortest paths, no weights   |
 | Kosaraju             | O(V + E)    |               |
-| Topological Sort     | Content     |               |
+| Topological Sort     | O(V + E)     | Linked List            |
 | Edmonds Karp         | O(V * E^2)  |               |
 
 ## Greedy Algorithms
 
-| Algorithm  | Runtime | Note 
+| Algorithm  | Runtime |  Data Sturcture Implemented |Note 
 | ------------- | ------------- | ------------- |
-| Dijkstra            | O(E +(V * log(V))   | Assumes all weights are positive && implemented w/ Fib Heap|
-| Prim                | O((N + M) * log(n))  | Assumes binary heap representation               |
-| Kruskal             | O(E * log E)  | Assumes Union-Find data structure               |
-| Bellman Ford        | Content       | Allows negative weights, no negative cycles |
-| Ford Fulkerson      | Content       |               |
-| Wildest Paths/Bottleneck            | Content  |               |
-| Edmonds Karp        | O(V * E^2)    |               |
+| Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
+| Prim                | O((N + M) * log(n))  | Binary heap |                               |
+| Kruskal             | O(E * log E)  |  Union-Find  |          | 
+| Bellman Ford        | Content       |               | Allows negative weights, no negative cycles |
+| Ford Fulkerson      | Content       |               |         |
+| Wildest Paths/Bottleneck    |               |   Content  |   |             
+| Edmonds Karp        | O(V * E^2)    |               |             | 
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
