@@ -48,7 +48,8 @@ Here is just a brief touch on asymtotics </br>
 | Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
 | Wildest Paths/Bottleneck    |               |   Content  |   |             
 | Edmonds Karp        | O(V * E^2)    |               |             | 
-| Horn Formulae        | O(N * M)    |               |  N is number of variables and M is number of formulas           | 
+| Horn Formulae        | O(N * M)    |               |  N is number of variables and M is number of formulas  | 
+| Huffamn Coding       | O(N * log(n))    |  Minimum Priority Queue             |   |
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -72,8 +73,25 @@ O(n + m) and the space complexity is O(n + m).
 
 ## Elementary Data Structures 
 
+#### Linked List 
+#### Array 
+#### Stack
+#### Queue 
+#### Hash Tables 
+#### Binary Search Trees 
+#### Red Black Trees
+#### Min/Max Priority Queue
+#### Heap
+
+
 ## Advanced Data Structures 
 
-
-
+#### Dynamic Trees
+#### Splay Trees
+#### Fusion Trees 
+#### Exponential Search Trees 
+#### B-Trees
+#### Fibonacci Heap
+#### van Emde Boas Trees
+#### Disjoint Sets 
 
