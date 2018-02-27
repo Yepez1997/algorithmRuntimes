@@ -27,7 +27,7 @@ Here is just a brief touch on asymtotics </br>
 
 ## Graph Algorithms
 
-| Algorithm  | Runtime | Data Stucture Implementated | Note 
+| Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   |  O(V + E)   | Linked list     |
 | Flloyd Warshall      | O(N^3)     |               |
@@ -38,8 +38,8 @@ Here is just a brief touch on asymtotics </br>
 
 ## Greedy Algorithms
 
-| Algorithm  | Runtime |  Data Sturcture Implemented |Note 
-| ------------- | ------------- | ------------- |
+| Algorithm  | Runtime |  Data Sturcture  |Note 
+| ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((N + M) * log(n))  | Binary heap |                               |
 | Kruskal             | O(E * log E)  |  Union-Find  |          | 
