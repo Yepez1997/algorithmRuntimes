@@ -77,7 +77,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
 | Horn Formulae        | O(NM)    |   Content            |  N is number of variables and M is number of formulas  | 
-| Huffamn Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
+| Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
