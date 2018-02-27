@@ -11,11 +11,11 @@ Here is just a brief touch on asymtotics </br>
 
 |  Asymtotic | Rough Meaning | Notation | Note
 | ------------- | ------------- | ------------- | ------------- |
-|  Oh           |  f <= g   |       |  f is less than or equal to g     |
-|  Omega        |  f >= g   |       |  f is greater than or equal to g | 
-|  Theta        |  f = g    |       |  f is equal to g     | 
-|  Little Oh    |  f < g    |       |  f is strictly less than  g  |
-|  Little Omega |  f > g    |       |  f is strictly greater than  g    | 
+|  Oh           |  f <= g   | f = O(g)            |  f is less than or equal to g     |
+|  Omega        |  f >= g   | f = Omega(g)        |  f is greater than or equal to g | 
+|  Theta        |  f = g    | f = Theta(g)        |  f is equal to g     | 
+|  Little Oh    |  f < g    | f = LittleOh(g)     |  f is strictly less than  g  |
+|  Little Omega |  f > g    | f = LittleOmega(g)  |  f is strictly greater than  g    | 
 
 ## Integer Multiplication Algorithms 
 
@@ -26,10 +26,14 @@ Here is just a brief touch on asymtotics </br>
 
 
 ## Graph Algorithms
-
+ * Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph 
+ </br>
+ * There exists different variations of graphs, i.e graphs can either be directed acyclic, undirected acyclic, directed cyclic, undirected cyclic, residual, and many more ... 
+ * 
+ 
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
-| Depth First Search   |  O(V + E)   | Linked list    |              | 
+| Depth First Search   | O(V + E)   | Linked list    |              | 
 | Flloyd Warshall      | O(V^3)      |                |               |
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
 | Kosaraju             | O(V + E)    |                | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
@@ -46,7 +50,7 @@ Here is just a brief touch on asymtotics </br>
 | Prim                | O((N + M) * log(n))  | Binary heap |                               |
 | Kruskal             | O(E * log E)  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
-| Wildest Paths/Bottleneck    |               |   Content  |   |             
+| Widest Paths/Bottleneck    |  O(N * log(N))             |   Content  |   |             
 | Edmonds Karp        | O(V * E^2)    |               |             | 
 | Horn Formulae        | O(N * M)    |               |  N is number of variables and M is number of formulas  | 
 | Huffamn Coding       | O(N * log(n))    |  Minimum Priority Queue             |   |
