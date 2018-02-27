@@ -26,10 +26,10 @@ Here is just a brief touch on asymtotics </br>
 
 
 ## Graph Algorithms
- * Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph 
+ Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph 
  </br>
- * There exists different variations of graphs, i.e graphs can either be directed acyclic, undirected acyclic, directed cyclic, undirected cyclic, residual, and many more ... 
- * 
+There exists different variations of graphs, i.e graphs can either be directed acyclic, undirected acyclic, directed cyclic, undirected cyclic, residual, and many more ... 
+ 
  
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
@@ -76,9 +76,10 @@ O(n + m) and the space complexity is O(n + m).
 ## Master Theorom (Recurrences)
 In order for the Master Theorom to yield we must have a Recurrence in the form of: 
 T(n) =  alpha(T(n/beta)) + gamma*(n^k)
-where alpha is greater than 1 
-where beta is greater than two
-where gamma and k are positive constants
+</br>
+* where alpha is greater than 1 
+* where beta is greater than two
+* where gamma and k are positive constants
 
 
 
