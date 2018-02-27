@@ -85,7 +85,7 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 </br>
 
 T(n) is 
-| Comparison  | Result |
+| Comparison  | Result 
 | ------------- | ------------- | 
 | alpha > beta^k     | theta(n^(log{beta}(alpha)))          |       
 | alpha = beta^k     | theta(n^k(log(n)))         |  
