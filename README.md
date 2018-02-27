@@ -42,7 +42,7 @@ Here is just a brief touch on asymtotics </br>
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((N + M) * log(n))  | Binary heap |                               |
-| Kruskal             | O(E * log E)  |  Union-Find  |          | 
+| Kruskal             | O(E * log E)  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content       |               |         |
 | Wildest Paths/Bottleneck    |               |   Content  |   |             
