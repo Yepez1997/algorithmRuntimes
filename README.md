@@ -33,7 +33,7 @@ Here is just a brief touch on asymtotics </br>
 
 
 ## Graph Algorithms
- Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph 
+ Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph. 
  </br>
 There exists different variations of graphs, i.e graphs can either be directed acyclic, undirected acyclic, directed cyclic, undirected cyclic, residual, and many more ... 
  
