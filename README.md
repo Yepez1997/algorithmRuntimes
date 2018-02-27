@@ -64,16 +64,16 @@ O(n + m) and the space complexity is O(n + m).
 
 ## Sorting Algorithms 
 
-| Algorithm  | Runtime | Note 
-| ------------- | ------------- | ------------- |
-| Radix Sort      | O(n * k)          |               |
-| Merge Sort      | O(n * log(n))     |               |
-| Insertion Sort  | O(n^2)            |               |
-| Selection Sort  | O(n^2)            |               |
-| Counting Sort   | O(n + k)          |               |
-| Heap Sort       | O(n * log(n))     |               |
-| Quick Sort      | theta(n * log(n)) |               |
-| Bucket Sort     | theta(n + k)      |               |
+| Algorithm  | Runtime |
+| ------------- | ------------- | 
+| Radix Sort      | O(n * k)          |               
+| Merge Sort      | O(n * log(n))     |               
+| Insertion Sort  | O(n^2)            |               
+| Selection Sort  | O(n^2)            |               
+| Counting Sort   | O(n + k)          |               
+| Heap Sort       | O(n * log(n))     |               
+| Quick Sort      | theta(n * log(n)) |               
+| Bucket Sort     | theta(n + k)      |               
 
 ## Master Theorom (Recurrences)
 In order for the Master Theorom to yield we must have a Recurrence in the form of: 
@@ -92,16 +92,12 @@ T(n) is
 | alpha = beta^k   | theta(n^k(log(n)))    |  
 | alpha < beta^k   | theta(n^k)| 
 
-| Algorithm  | Runtime | 
+| Comparison | Result  | 
 | ------------- | ------------- | 
 | Radix Sort      | O(n * k)          |               
 | Merge Sort      | O(n * log(n))     |               
 | Insertion Sort  | O(n^2)            |              
-| Selection Sort  | O(n^2)            |               
-| Counting Sort   | O(n + k)          |               
-| Heap Sort       | O(n * log(n))     |               
-| Quick Sort      | theta(n * log(n)) |               
-| Bucket Sort     | theta(n + k)      |               
+       
 
 ## Advanced Data Structures 
 
