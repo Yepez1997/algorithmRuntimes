@@ -30,7 +30,7 @@ Here is just a brief touch on asymtotics </br>
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   |  O(V + E)   | Linked list     |
-| Flloyd Warshall      | O(N^3)     |               |
+| Flloyd Warshall      | O(V^3)     |               |
 | Breadth First Search | O(V + E)    |  Linked List  | Single shortest paths, no weights   |
 | Kosaraju             | O(V + E)    |               |
 | Topological Sort     | O(V + E)     | Linked List            |
@@ -43,7 +43,7 @@ Here is just a brief touch on asymtotics </br>
 | Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((N + M) * log(n))  | Binary heap |                               |
 | Kruskal             | O(E * log E)  |  Union-Find  |          | 
-| Bellman Ford        | Content       |               | Allows negative weights, no negative cycles |
+| Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
 | Ford Fulkerson      | Content       |               |         |
 | Wildest Paths/Bottleneck    |               |   Content  |   |             
 | Edmonds Karp        | O(V * E^2)    |               |             | 
