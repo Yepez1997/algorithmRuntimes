@@ -106,16 +106,19 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 * where gamma and k are positive constants
 
 T(n) is :
-| Comparison | Result  | 
+
+         
+
+| Comparison  | Runtime |
 | ------------- | ------------- | 
 | alpha > beta^k   | theta(n^(log{beta}(alpha)))   |               
 | alpha = beta^k   | theta(n^k(log(n)))    |               
-| alpha < beta^k   | theta(n^k)           |              
-       
+| alpha < beta^k   | theta(n^k)           |  
 
-** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure 
+ 
 
 ## Advanced Data Structures 
+** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
 
 #### Dynamic Trees
 #### Splay Trees
@@ -130,6 +133,7 @@ T(n) is :
 
 
 ## Elementary Data Structures 
+** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
 
 #### Linked List 
 #### Array 
