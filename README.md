@@ -95,7 +95,9 @@ O(n + m) and the space complexity is O(n + m).
 | Counting Sort   | O(n + k)          |               
 | Heap Sort       | O(n * log(n))     |               
 | Quick Sort      | theta(n * log(n)) |               
-| Bucket Sort     | theta(n + k)      |               
+| Bucket Sort     | theta(n + k)      |     
+
+## String Algorithms 
 
 ## Master Theorem (Recurrences)
 In order for the Master Theorom to yield we must have a Recurrence in the form of: 
