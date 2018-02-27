@@ -22,7 +22,7 @@ Here is just a brief touch on asymtotics </br>
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
 |  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |               |
-|  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))     |               | 
+|  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))     |  Matrix Multiplication            | 
 
 
 ## Graph Algorithms
@@ -34,26 +34,26 @@ Here is just a brief touch on asymtotics </br>
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   | O(V + E)   | Linked list    |              | 
-| Flloyd Warshall      | O(V^3)      |                |               |
+| Flloyd Warshall      | theta(V^3)      |                |               |
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
 | Kosaraju             | O(V + E)    |                | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
 | Topological Sort     | O(V + E)    | Linked List    |            |
-| Johnson              | O((V^2 * log(V)) + (V * E))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
-| Ford Fulkerson       | O(E * (F*))  |               | (F*) denotes the maximum flow in a tranformed network     |
+| Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
+| Ford Fulkerson       | O(E(F*))  |               | (F*) denotes the maximum flow in a tranformed network     |
 
 
 ## Greedy Algorithms
 
 | Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
-| Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
-| Prim                | O((N + M) * log(n))  | Binary heap |                               |
-| Kruskal             | O(E * log E)  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
-| Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
-| Widest Paths/Bottleneck    |  O(N * log(N))             |   Content  |   |             
-| Edmonds Karp        | O(V * E^2)    |               |             | 
-| Horn Formulae        | O(N * M)    |               |  N is number of variables and M is number of formulas  | 
-| Huffamn Coding       | O(N * log(n))    |  Minimum Priority Queue             |   |
+| Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
+| Prim                | O((NM)log(N))  | Binary heap |                               |
+| Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
+| Bellman Ford        | O(VE)       |               | Allows negative weights, no negative cycles |
+| Widest Paths/Bottleneck   |  O(Nlog(N))             |   Content  |   |             
+| Edmonds Karp        | O(VE^2)    |               |             | 
+| Horn Formulae        | O(NM)    |               |  N is number of variables and M is number of formulas  | 
+| Huffamn Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -74,6 +74,13 @@ O(n + m) and the space complexity is O(n + m).
 | Bucket Sort     | theta(n + k)      |               |
 
 ## Master Theorom (Recurrences)
+In order for the Master Theorom to yield we must have a Recurrence in the form of: 
+T(n) =  alpha(T(n/beta)) + gamma*(n^k)
+where alpha is greater than 1 
+where beta is greater than two
+where gamma and k are positive constants
+
+
 
 ## Elementary Data Structures 
 
