@@ -48,6 +48,7 @@ Here is just a brief touch on asymtotics </br>
 | Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
 | Wildest Paths/Bottleneck    |               |   Content  |   |             
 | Edmonds Karp        | O(V * E^2)    |               |             | 
+| Horn Formulae        | O(N * M)    |               |  N is number of variables and M is number of formulas           | 
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
