@@ -32,7 +32,7 @@ Here is just a brief touch on asymtotics </br>
 | Depth First Search   |  O(V + E)   | Linked list    |              | 
 | Flloyd Warshall      | O(V^3)      |                |               |
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
-| Kosaraju             | O(V + E)    |                |                    |
+| Kosaraju             | O(V + E)    |                | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
 | Topological Sort     | O(V + E)    | Linked List    |            |
 | Johnson              | O((V^2 * log(V)) + (V * E))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
 | Ford Fulkerson       | O(E * (F*))  |               | (F*) denotes the maximum flow in a tranformed network     |
