@@ -92,6 +92,17 @@ T(n) is
 | alpha = beta^k   | theta(n^k(log(n)))    |  
 | alpha < beta^k   | theta(n^k)| 
 
+| Algorithm  | Runtime | 
+| ------------- | ------------- | 
+| Radix Sort      | O(n * k)          |               
+| Merge Sort      | O(n * log(n))     |               
+| Insertion Sort  | O(n^2)            |              
+| Selection Sort  | O(n^2)            |               
+| Counting Sort   | O(n + k)          |               
+| Heap Sort       | O(n * log(n))     |               
+| Quick Sort      | theta(n * log(n)) |               
+| Bucket Sort     | theta(n + k)      |               
+
 ## Advanced Data Structures 
 
 #### Dynamic Trees
