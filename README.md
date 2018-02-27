@@ -94,9 +94,9 @@ T(n) is
 
 | Comparison | Result  | 
 | ------------- | ------------- | 
-| Radix Sort      | O(n * k)          |               
-| Merge Sort      | O(n * log(n))     |               
-| Insertion Sort  | O(n^2)            |              
+| alpha > beta^k       | theta(n^(log{beta}(alpha)))          |               
+| alpha = beta^k        | theta(n^k(log(n)))    |               
+| alpha < beta^k  | theta(n^k)           |              
        
 
 ## Advanced Data Structures 
