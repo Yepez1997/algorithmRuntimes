@@ -1,6 +1,8 @@
 # Algorithm Runtimes (In Progress) 
 
 Feel free to add if encountered 
+If there exists CONTENT in a box, it needs Content -- working on it 
+
 * {} denotes subscript 
 * ^ denotes superscript 
 * If not log base is present, assume log base === 2 
@@ -34,12 +36,12 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   | O(V + E)   | Linked list    |              | 
-| Flloyd Warshall      | theta(V^3)      |                |               |
+| Flloyd Warshall      | theta(V^3)      | Content              |               |
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
-| Kosaraju             | O(V + E)    |                | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
-| Topological Sort     | O(V + E)    | Linked List    |            |
+| Kosaraju             | O(V + E)    | Linked List               | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
+| Topological Sort     | O(V + E)    | Linked List    | Linked List          |
 | Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
-| Ford Fulkerson       | O(E(F*))  |               | (F*) denotes the maximum flow in a tranformed network     |
+| Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
 
 
 ## Greedy Algorithms
@@ -49,10 +51,10 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((NM)log(N))  | Binary heap |                               |
 | Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
-| Bellman Ford        | O(VE)       |               | Allows negative weights, no negative cycles |
-| Widest Paths/Bottleneck   |  O(Nlog(N))             |   Content  |   |             
-| Edmonds Karp        | O(VE^2)    |               |             | 
-| Horn Formulae        | O(NM)    |               |  N is number of variables and M is number of formulas  | 
+| Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
+| Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
+| Edmonds Karp        | O(VE^2)    |   Content            |             | 
+| Horn Formulae        | O(NM)    |   Content            |  N is number of variables and M is number of formulas  | 
 | Huffamn Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 
 ** Note Graph Algorithms may differ in run time dependending the Data structure used.
@@ -80,7 +82,26 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 * where alpha is greater than 1 
 * where beta is greater than two
 * where gamma and k are positive constants
+</br>
 
+T(n) is 
+| Comparison  | Result |
+| ------------- | ------------- | 
+| alpha > beta^k     | theta(n^(log{beta}(alpha)))          |       
+| alpha = beta^k     | theta(n^k(log(n)))         |  
+| alpha < beta^k      | theta(n^k)| 
+
+## Advanced Data Structures 
+
+#### Dynamic Trees
+#### Splay Trees
+#### Fusion Trees 
+#### Exponential Search Trees 
+#### B-Trees
+#### Fibonacci Heap
+#### van Emde Boas Trees
+#### Disjoint Sets
+#### y-fast tries 
 
 
 ## Elementary Data Structures 
@@ -94,16 +115,7 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 #### Red Black Trees
 #### Min/Max Priority Queue
 #### Heap
+#### Trie Trees 
 
 
-## Advanced Data Structures 
-
-#### Dynamic Trees
-#### Splay Trees
-#### Fusion Trees 
-#### Exponential Search Trees 
-#### B-Trees
-#### Fibonacci Heap
-#### van Emde Boas Trees
-#### Disjoint Sets 
 
