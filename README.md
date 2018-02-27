@@ -108,9 +108,9 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 T(n) is :
 | Comparison | Result  | 
 | ------------- | ------------- | 
-| alpha > beta^k       | theta(n^(log{beta}(alpha)))          |               
-| alpha = beta^k        | theta(n^k(log(n)))    |               
-| alpha < beta^k  | theta(n^k)           |              
+| alpha > beta^k   | theta(n^(log{beta}(alpha)))   |               
+| alpha = beta^k   | theta(n^k(log(n)))    |               
+| alpha < beta^k   | theta(n^k)           |              
        
 
 ** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure 
