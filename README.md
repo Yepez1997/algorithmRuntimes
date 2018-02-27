@@ -1,8 +1,16 @@
 # Algorithm Runtimes (In Progress) 
 
 Feel free to add if encountered 
+</br>
 If there exists CONTENT in a box, it needs Content -- working on it 
 
+Algorithms we care about must be 
+ 1. Efficient (can we do better?)
+ 2. Correct 
+ 
+Prove algorithm correctness by Induction, Strong Induction, Contrapositive, etc. More importantly for all steps the algorithm must hold, i.e the maintenance of the algorithm. Asking can we do better every time an algorithm is designed is critical. I.e Can we improve the running time? Can we improve the memory consumption ? etc. etc. 
+
+Take a look at: 
 * {} denotes subscript 
 * ^ denotes superscript 
 * If not log base is present, assume log base === 2 
