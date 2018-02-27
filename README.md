@@ -15,7 +15,7 @@ Here is just a brief touch on asymtotics </br>
 |  Omega        |  f >= g   |       |  f is greater than or equal to g | 
 |  Theta        |  f = g    |       |  f is equal to g     | 
 |  Little Oh    |  f < g    |       |  f is strictly less than  g  |
-|  Little Omega | f > g     |       |  f is strictly greater than  g    | 
+|  Little Omega |  f > g    |       |  f is strictly greater than  g    | 
 
 ## Integer Multiplication Algorithms 
 
@@ -29,22 +29,23 @@ Here is just a brief touch on asymtotics </br>
 
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
-| Depth First Search   |  O(V + E)   | Linked list     |
-| Flloyd Warshall      | O(V^3)     |               |
-| Breadth First Search | O(V + E)    |  Linked List  | Single shortest paths, no weights   |
-| Kosaraju             | O(V + E)    |               |
-| Topological Sort     | O(V + E)     | Linked List            |
-| Edmonds Karp         | O(V * E^2)  |               |
+| Depth First Search   |  O(V + E)   | Linked list    |              | 
+| Flloyd Warshall      | O(V^3)      |                |               |
+| Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
+| Kosaraju             | O(V + E)    |                |                    |
+| Topological Sort     | O(V + E)    | Linked List    |            |
+| Johnson              | O((V^2 * log(V)) + (V * E))  |   Fibonacci Min Priority Queue     | Uses reweighting technique | 
+| Ford Fulkerson       | O(E * (F*))  |               | (F*) denotes the maximum flow in a tranformed network     |
+
 
 ## Greedy Algorithms
 
-| Algorithm  | Runtime |  Data Sturcture  |Note 
+| Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E +(V * log(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((N + M) * log(n))  | Binary heap |                               |
 | Kruskal             | O(E * log E)  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(V * E)       |               | Allows negative weights, no negative cycles |
-| Ford Fulkerson      | Content       |               |         |
 | Wildest Paths/Bottleneck    |               |   Content  |   |             
 | Edmonds Karp        | O(V * E^2)    |               |             | 
 
@@ -57,14 +58,14 @@ O(n + m) and the space complexity is O(n + m).
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-| Radix Sort      | O(n * k)        |               |
-| Merge Sort      | O(n * log(n))   |               |
-| Insertion Sort  | O(n^2)          |               |
-| Selection Sort  | O(n^2)          |               |
-| Counting Sort   | O(n + k)        |               |
-| Heap Sort       | O(n * log(n))   |               |
+| Radix Sort      | O(n * k)          |               |
+| Merge Sort      | O(n * log(n))     |               |
+| Insertion Sort  | O(n^2)            |               |
+| Selection Sort  | O(n^2)            |               |
+| Counting Sort   | O(n + k)          |               |
+| Heap Sort       | O(n * log(n))     |               |
 | Quick Sort      | theta(n * log(n)) |               |
-| Bucket Sort     | theta(n + k)    |               |
+| Bucket Sort     | theta(n + k)      |               |
 
 ## Master Theorom (Recurrences)
 
