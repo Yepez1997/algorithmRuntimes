@@ -96,11 +96,8 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 * where alpha is greater than 1 
 * where beta is greater than two
 * where gamma and k are positive constants
-</br>
 
 T(n) is 
-
-</br>
 
 | Comparison | Result  | 
 | ------------- | ------------- | 
