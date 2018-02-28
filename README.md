@@ -76,7 +76,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
-| Horn Formulae        | O(NM)    |   Content            |  N is number of variables and M is number of formulas  | 
+| Horn Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
