@@ -97,7 +97,7 @@ O(n + m) and the space complexity is O(n + m).
 | Quick Sort      | theta(n * log(n)) |               
 | Bucket Sort     | theta(n + k)      |   
 
-## NP-Complete 
+## NP-Complete Algorithms
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Set Cover      | Content  |  Content           | Content    |
