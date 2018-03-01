@@ -138,6 +138,8 @@ T(n) is :
 #### Disjoint Sets
 #### Y-fast tries 
 #### Link Cut Trees 
+#### Precedence Graphs
+#### B+ Trees
 
 
 ## Elementary Data Structures 
@@ -155,7 +157,7 @@ T(n) is :
 #### Trie Trees 
 #### Union Find
 #### K-ary heaps 
-#### Precedence Graphs
+
 
 # Soon to be on here: 
 * Multithreaded Algorithms
