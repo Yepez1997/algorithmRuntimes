@@ -95,7 +95,13 @@ O(n + m) and the space complexity is O(n + m).
 | Counting Sort   | O(n + k)          |               
 | Heap Sort       | O(n * log(n))     |               
 | Quick Sort      | theta(n * log(n)) |               
-| Bucket Sort     | theta(n + k)      |     
+| Bucket Sort     | theta(n + k)      |   
+
+## NP-Complete 
+| Algorithm  | Runtime | Data Stucture | Note 
+| ------------- | ------------- | ------------- | ------------- |
+| Set Cover      | Content  |  Content           | Content    |
+
 
 ## String Algorithms 
 
@@ -149,13 +155,13 @@ T(n) is :
 #### Trie Trees 
 #### Union Find
 #### K-ary heaps 
+#### Precedence Graphs
 
 # Soon to be on here: 
 * Multithreaded Algorithms
 * Amortized Analysis 
 * Schöning's algorithm
 * Möbius inversion
-* Basic NP-Complete 
 * Linear Programming
 * Hashing 
 * Semidefinite programming (maybe)
