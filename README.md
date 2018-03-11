@@ -76,8 +76,9 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
-| Horn Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
+| Horn Sat Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
+| Set-Cover       | O(klog(N))    |              |   |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -102,6 +103,11 @@ O(n + m) and the space complexity is O(n + m).
 | ------------- | ------------- | ------------- | ------------- |
 | Set Cover      | Content  |  Content           | Content    |
 
+## NP-Hard Algorithms
+| Algorithm  | Runtime | Data Stucture | Note 
+| ------------- | ------------- | ------------- | ------------- |
+| Travelling Salesman Problem     | O(n!)  |  Content           | Using Bruteforce    |
+| Bellman/Held/Harp     | O(n^2 * (2^n))  |  Content           | Improvement of TSP using Dynamic Programming    |
 
 ## String Algorithms 
 
