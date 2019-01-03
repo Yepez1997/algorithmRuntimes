@@ -149,9 +149,10 @@ T(n) is :
 #### van Emde Boas Trees
 | Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
-| theta(u)  | O(min(log(w),log{w}(n))) | assumes we use Word Ram Model, let u = (2^w), Store HashTable   |
+| O(log{w}(n)) | O(min(log(w),log{w}(n))) | assumes we use Word Ram Model, let u = (2^w), Store HashTable   |
 #### Disjoint Sets
 #### Y-fast tries 
+#### X-fast tries 
 #### Link Cut Trees 
 #### Precedence Graphs
 #### B+ Trees
