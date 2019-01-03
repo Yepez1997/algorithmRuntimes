@@ -38,7 +38,7 @@ Here is just a brief touch on asymtotics </br>
 | ------------- | ------------- | ------------- |
 |  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |  Python uses Karastuba's Alg. for multiplication   |
 |  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))     |  Matrix Multiplication            | 
-|  Fast Fourier Transform     | Content   |  Content           | 
+|  Fast Fourier Transform     | theta(n * log(n))   |  Content           | 
 
 ## Graph Algorithms
  Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph. 
@@ -60,6 +60,8 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Flloyd Warshall      | theta(V^3)      |  Content         |     All pairs shortest paths          |
+| 0-1 KnapSack     | TODO      |  Content         |     0-1 KS ! greedy         |
+
 
 ## Max-flow Algorithms
 | Algorithm  | Runtime | Data Stucture | Note 
@@ -80,6 +82,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 | Set-Cover       | O(klog(N))    |              |   |
 | Matroid       | TO DO    |              |   |
+| 0-1 Fractional KnapSack     | TODO      |  Content         |    Greedy !        |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -146,12 +149,13 @@ T(n) is :
 #### van Emde Boas Trees
 | Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
-| theta(u)  | O(min{log(w),log{w}(n)}) | assumes we use Word Ram Model, let u = (2^w)   |
+| theta(u)  | O(min(log(w),log{w}(n))) | assumes we use Word Ram Model, let u = (2^w), Store HashTable   |
 #### Disjoint Sets
 #### Y-fast tries 
 #### Link Cut Trees 
 #### Precedence Graphs
 #### B+ Trees
+#### Tiered Bit Vectors 
 
 
 ## Elementary Data Structures 
@@ -179,6 +183,11 @@ T(n) is :
 * Linear Programming
 * Hashing 
 * Semidefinite programming (maybe)
+
+# Other Useful Notes 
+* Can sort O(n * sqrt(logn)) using the dynamic fusion trees with the Word Ram Model
+ * Can do better with Han's O(n*log(log(n))) or Han and Thorup O(n * sqrt(log(log(n))
+ 
 
 
 
