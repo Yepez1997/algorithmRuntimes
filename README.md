@@ -50,7 +50,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | ------------- | ------------- | ------------- | ------------- |
 | Depth First Search   | O(V + E)   | Linked list    |              | 
 | Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
-| Kosaraju             | O(V + E)    | Linked List               | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
+| Kosaraju (SCC'S)            | O(V + E)    | Linked List               | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
 | Topological Sort     | O(V + E)    | Linked List    | Linked List          |
 | Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique && all pairs shortest path| 
 
@@ -79,6 +79,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Horn Sat Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
 | Set-Cover       | O(klog(N))    |              |   |
+| Matroid       | TO DO    |              |   |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
@@ -122,7 +123,6 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 T(n) is :
 
          
-
 | Comparison  | Runtime |
 | ------------- | ------------- | 
 | alpha > beta^k   | theta(n^(log{beta}(alpha)))   |               
@@ -137,14 +137,14 @@ T(n) is :
 #### Dynamic Trees
 #### Splay Trees
 #### Fusion Trees
-| Space  | Runtime | Other |
+| Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
 | theta(n)  | O(log{w}(n)) | assumes we use Word Ram Model, let u = (2^w) 
 #### Exponential Search Trees 
 #### B-Trees
 #### Fibonacci Heap
 #### van Emde Boas Trees
-| Space  | Runtime | Other |
+| Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
 | theta(u)  | O(min{log(w),log{w}(n)}) | assumes we use Word Ram Model, let u = (2^w)   |
 #### Disjoint Sets
