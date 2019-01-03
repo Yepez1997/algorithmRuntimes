@@ -136,11 +136,17 @@ T(n) is :
 
 #### Dynamic Trees
 #### Splay Trees
-#### Fusion Trees 
+#### Fusion Trees
+| Space  | Runtime | Other |
+| ------------- | ------------- | ------------- | 
+| theta(n)  | O(log{w}(n)) | assumes we use Word Ram Model, let u = (2^w) 
 #### Exponential Search Trees 
 #### B-Trees
 #### Fibonacci Heap
 #### van Emde Boas Trees
+| Space  | Runtime | Other |
+| ------------- | ------------- | ------------- | 
+| theta(u)  | O(min{log(w),log{w}(n)}) | assumes we use Word Ram Model, let u = (2^w)   |
 #### Disjoint Sets
 #### Y-fast tries 
 #### Link Cut Trees 
