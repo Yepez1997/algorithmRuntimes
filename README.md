@@ -188,6 +188,7 @@ T(n) is :
 # Other Useful Notes 
 * Can sort O(n * sqrt(logn)) using the dynamic fusion trees with the Word Ram Model
  * Can do better with Han's O(n*log(log(n))) or Han and Thorup O(n * sqrt(log(log(n))
+* Y-fast Tries make use of X-fast tries and Balanced Binary Search Trees -> theta(n) 
  
 
 
