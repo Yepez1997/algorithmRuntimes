@@ -70,6 +70,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | Edmonds Karp        | O(VE^2)    |   Content            |             | 
 
 ## Greedy Algorithms
+Some of these apply to DP problems 
 
 | Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
@@ -88,6 +89,10 @@ There exists different variations of graphs, i.e graphs can either be directed a
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
 is used. On the other hand, if implemented with a linked list, access time is at most 
 O(n + m) and the space complexity is O(n + m). 
+
+## Radomized Algorithms 
+#### Las Vegas Algorithms 
+#### Monte Carlo Algorithms 
 
 ## Sorting Algorithms 
 
@@ -114,6 +119,8 @@ O(n + m) and the space complexity is O(n + m).
 | Bellman/Held/Harp     | O(n^2 * (2^n))  |  Content           | Improvement of TSP using Dynamic Programming    |
 
 ## String Algorithms 
+#### Manacher's Algorithm 
+
 
 ## Master Theorem (Recurrences)
 In order for the Master Theorom to yield we must have a Recurrence in the form of: 
@@ -156,11 +163,14 @@ T(n) is :
 #### Link Cut Trees 
 #### Precedence Graphs
 #### B+ Trees
+#### B- Trees
+#### B Trees
 #### Tiered Bit Vectors 
+#### Bloomier Filters 
 
 
 ## Elementary Data Structures 
-** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
+** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure. I am familiar with all these !
 
 #### Linked List 
 #### Array 
@@ -174,7 +184,7 @@ T(n) is :
 #### Trie Trees 
 #### Union Find
 #### K-ary heaps 
-
+#### Skip Lists
 
 # Soon to be on here: 
 * Multithreaded Algorithms
@@ -182,7 +192,7 @@ T(n) is :
 * Schöning's algorithm
 * Möbius inversion
 * Linear Programming
-* Hashing 
+* Hashing (Cuckoo Hashing etc etc )
 * Semidefinite programming (maybe)
 
 # Other Useful Notes 
