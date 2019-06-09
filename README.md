@@ -87,8 +87,7 @@ Some of these apply to DP problems
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
 is used. On the other hand, if implemented with a linked list, access time is at most 
-O(n + m) and the space complexity is O(n + m). 
-** Also the type of data structure used represent a graph can either be a matrix or a table of verticies with collisions - where each collision is an outgoing edge from the vertex. A linked list representation is useful when the graph of the algorithm is sparse - i.e the graph. A sparse graph is defined as a graph whose edges are at most the number of verticies. A dense graph can have more edges per verticies. 
+O(n + m) and the space complexity is O(n + m). The type of data structure used represent a graph can either be a matrix or a table of verticies with collisions - where each collision is an outgoing edge from the vertex. A linked list representation is useful when the graph of the algorithm is sparse - i.e the graph. A sparse graph is defined as a graph whose edges are at most the number of verticies. A dense graph can have more edges per verticies. 
 
 ## `Linear Programming`
 Simplex
