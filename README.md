@@ -71,17 +71,17 @@ There exists different variations of graphs, i.e graphs can either be directed a
 
 ## `Greedy Algorithms`
 Some of these apply to DP problems 
-| Algorithm  | Runtime |  Data Sturcture  | Note |
+| Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
-| Prim                | O((NM)log(N))  | Binary heap | Creates Minimum Spanning Tree                              |
+| Prim                | O((NM)log(N))  | Binary heap | Creates Minimum Spanning Tree        |
 | Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression and Union By Rank(log star(n))| 
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
-| Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
+| Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |  Content |             
 | Horn Sat Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
-| Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
-| Set-Cover       | O(klog(N))    |      |  Approximation Algorithm i.e input up to k - otherwise its an np-hard problem | 
-| Matroid       | TO DO    |              |   |
+| Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             | Content  |
+| Set-Cover       | O(klog(N))    |  Content    |  Approximation Algorithm i.e input up to k - otherwise its an np-hard problem | 
+| Matroid       | TO DO    |      Content        | Content  |
 | 0-1 Fractional KnapSack     | TODO      |  Content         |    0-1 KnapSack is dp, 0-1 Fractional knapsack IS greedy  |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
