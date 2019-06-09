@@ -71,7 +71,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 
 ## `Greedy Algorithms`
 Some of these apply to DP problems 
-| Algorithm  | Runtime |  Data Sturcture  | Note 
+| Algorithm  | Runtime |  Data Sturcture  | Note |
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((NM)log(N))  | Binary heap | Creates Minimum Spanning Tree                              |
