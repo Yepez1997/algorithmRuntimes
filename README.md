@@ -15,14 +15,14 @@ Take a look at:
 * ^ denotes superscript 
 * If is not log base is present, assume log base === 2 
 
-## Asymtotic Notations 
+## `Asymtotic Notations`
 Here is just a brief touch on asymtotics </br>
 
 * Exponential time grows faster then polynomial time 
 * Polynomial time grows faster than logarithmic time 
 * Logarithmic time grows faster than logarithmic star time (log*(n){grows very very slowly})
 
-### Given functions f and g 
+### `Given functions f and g` 
 
 |  Asymtotic | Rough Meaning | Notation | Note
 | ------------- | ------------- | ------------- | ------------- |
@@ -32,15 +32,15 @@ Here is just a brief touch on asymtotics </br>
 |  Little Oh    |  f < g    | f = LittleOh(g)     |  f is strictly less than  g  |
 |  Little Omega |  f > g    | f = LittleOmega(g)  |  f is strictly greater than  g    | 
 
-## Integer Multiplication Algorithms 
+## `Integer Multiplication Algorithms`
 
 | Algorithm  | Runtime | Note 
 | ------------- | ------------- | ------------- |
-|  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |  Python uses Karastuba's Alg. for multiplication   |
+|  Karastuba    | O((n ^ (log{2}(3))) ~ (n ^ (1.585))) |  Python uses Karastuba's Alg. for int multiplication (reducing multiplication calls from 4 -> 3 )   |
 |  Strassen     | O((n ^ log(7))) ~ (n ^ (2.807)))     |  Matrix Multiplication            | 
 |  Fast Fourier Transform     | theta(n * log(n))   |  Content           | 
 
-## Graph Algorithms
+## `Graph && Shortest Path Algoriths Algorithms`
  Given a graph G(V,E), V denotes the verticies in a graph and E denotes the edges in a graph. 
  </br>
 There exists different variations of graphs, i.e graphs can either be directed acyclic, undirected acyclic, directed cyclic, undirected cyclic, residual, and many more ... 
@@ -48,14 +48,14 @@ There exists different variations of graphs, i.e graphs can either be directed a
  
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
-| Depth First Search   | O(V + E)   | Linked list    |              | 
-| Breadth First Search | O(V + E)    |  Linked List   | Single shortest paths, no weights   |
+| Depth First Search   | O(V + E)   | Stack   |   Uses stack to keep track of the nodes traversed            | 
+| Breadth First Search | O(V + E)    |  Queue   | Single shortest paths, no weights   |
 | Kosaraju (SCC'S)            | O(V + E)    | Linked List               | Run DFS once, then run DFS on the Graph's transpose for SCC's                  |
-| Topological Sort     | O(V + E)    | Linked List    | Linked List          |
-| Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci Min Priority Queue     | Uses reweighting technique && all pairs shortest path| 
+| Topological Sort     | O(V + E)    | Linked List    | Run DFS alpha times -> O(alpha * V + alpha * E) -> O(V + E)        |
+| Johnson              | O((V^2(log(V)) + (VE))  |   Fibonacci ... Min Priority Queue     | Uses reweighting technique && all pairs shortest path| 
 
 
-## Dynamic Programming
+## `Dynamic Programming`
 
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
@@ -63,34 +63,37 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | 0-1 KnapSack     | TODO      |  Content         |     0-1 KS ! greedy         |
 
 
-## Max-flow Algorithms
+## `Max-flow/Network Algorithms`
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
 | Edmonds Karp        | O(VE^2)    |   Content            |             | 
 
-## Greedy Algorithms
+## `Greedy Algorithms`
 Some of these apply to DP problems 
-
 | Algorithm  | Runtime |  Data Sturcture  | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Dijkstra            | O(E(Vlog(V)) | Fibonacci Heap | Assumes all weights are positive|
 | Prim                | O((NM)log(N))  | Binary heap | Creates Minimum Spanning Tree                              |
-| Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression (log star(n))| 
+| Kruskal             | O(Elog(E))  |  Union-Find  |  Runs O((N + M) * log*(n)) with Path Compression and Union By Rank(log star(n))| 
 | Bellman Ford        | O(VE)       |  Binary heap           | Allows negative weights, no negative cycles |
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
 | Horn Sat Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
-| Set-Cover       | O(klog(N))    |              |   |
+| Set-Cover       | O(klog(N))    |              |  Approximation Algorithm i.e input up to k - otherwise its an np-hard problem | 
 | Matroid       | TO DO    |              |   |
-| 0-1 Fractional KnapSack     | TODO      |  Content         |    Greedy !        |
+| 0-1 Fractional KnapSack     | TODO      |  Content         |    0-1 KnapSack is dp, 0-1 Fractional knapsack IS greedy        |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
 is used. On the other hand, if implemented with a linked list, access time is at most 
 O(n + m) and the space complexity is O(n + m). 
+** Also the type of data structure used represent a graph can either be a matrix or a table of verticies with collisions - where each collision is an outgoing edge from the vertex. A linked list representation is useful when the graph of the algorithm is spars - i.e the graph 
 
-## Radomized Algorithms 
+## `Linear Programming`
+Simplex
+
+## `Radomized Algorithms` 
 #### Las Vegas Algorithms 
 #### Monte Carlo Algorithms 
 
@@ -107,19 +110,20 @@ O(n + m) and the space complexity is O(n + m).
 | Quick Sort      | theta(n * log(n)) |               
 | Bucket Sort     | theta(n + k)      |   
 
-## NP-Complete Algorithms
+## `NP-Complete Algorithms`
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Set Cover      | Content  |  Content           | Content    |
 
-## NP-Hard Algorithms
+## `NP-Hard Algorithms`
 | Algorithm  | Runtime | Data Stucture | Note 
 | ------------- | ------------- | ------------- | ------------- |
 | Travelling Salesman Problem     | O(n!)  |  Content           | Using Bruteforce    |
 | Bellman/Held/Harp     | O(n^2 * (2^n))  |  Content           | Improvement of TSP using Dynamic Programming    |
 
-## String Algorithms 
+## `String Algorithms`
 #### Manacher's Algorithm 
+#### Knuth Morris Pratt Algorithm (KMP) 
 
 
 ## Master Theorem (Recurrences)
@@ -131,8 +135,7 @@ T(n) =  alpha(T(n/beta)) + gamma*(n^k)
 * where gamma and k are positive constants
 
 T(n) is :
-
-         
+     
 | Comparison  | Runtime |
 | ------------- | ------------- | 
 | alpha > beta^k   | theta(n^(log{beta}(alpha)))   |               
@@ -140,18 +143,21 @@ T(n) is :
 | alpha < beta^k   | theta(n^k)           |  
 
  
+## `Greedy Algs Notes` 
+ 
+ 
+## `Dynamic Programming Notes`
 
-## Advanced Data Structures 
+## `Advanced Data Structures`
 ** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
-
-#### Dynamic Trees
+#### `KD-Trees (Geometric Datastructure)`
+#### `Dynamic Tree`s
 #### Splay Trees
 #### Fusion Trees
 | Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
 | theta(n)  | O(log{w}(n)) | assumes we use Word Ram Model, let u = (2^w) 
 #### Exponential Search Trees 
-#### B-Trees
 #### Fibonacci Heap
 #### van Emde Boas Trees
 | Space  | Runtime | Note |
@@ -160,8 +166,6 @@ T(n) is :
 #### Disjoint Sets
 #### Y-fast tries 
 #### X-fast tries 
-#### Link Cut Trees 
-#### Precedence Graphs
 #### B+ Trees
 #### B- Trees
 #### B Trees
@@ -169,7 +173,7 @@ T(n) is :
 #### Bloomier Filters 
 
 
-## Elementary Data Structures 
+## `Elementary Data Structures` 
 ** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure. I am familiar with all these !
 
 #### Linked List 
@@ -179,17 +183,18 @@ T(n) is :
 #### Hash Tables 
 #### Binary Search Trees 
 #### Red Black Trees
+#### AVL Trees 
 #### Min/Max Priority Queue
 #### Heap
 #### Trie Trees 
 #### Union Find
 #### K-ary heaps 
 #### Skip Lists
+#### Prefix Tree (Trie)
 
 # Soon to be on here: 
 * Multithreaded Algorithms
 * Amortized Analysis 
-* Schöning's algorithm
 * Möbius inversion
 * Linear Programming
 * Hashing (Cuckoo Hashing etc etc )
