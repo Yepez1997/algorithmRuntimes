@@ -1,6 +1,6 @@
 # Algorithm Runtimes (In Progress) 
 
-Feel free to add if encountered 
+Feel free to add if encountered, writing notes on algorithms as I encountered them or have encountered them.
 </br>
 If there exists CONTENT in a box, it needs Content -- working on it 
 
