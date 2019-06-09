@@ -80,15 +80,15 @@ Some of these apply to DP problems
 | Widest Paths/Bottleneck   |  O(Nlog(N)) |   Content  |   |             
 | Horn Sat Formulae        | O(NM)    |   Linked List            |  N is number of variables and M is number of formulas  | 
 | Huffman Coding       | O(Nlog(N))    |  Minimum Priority Queue             |   |
-| Set-Cover       | O(klog(N))    |              |  Approximation Algorithm i.e input up to k - otherwise its an np-hard problem | 
+| Set-Cover       | O(klog(N))    |      |  Approximation Algorithm i.e input up to k - otherwise its an np-hard problem | 
 | Matroid       | TO DO    |              |   |
-| 0-1 Fractional KnapSack     | TODO      |  Content         |    0-1 KnapSack is dp, 0-1 Fractional knapsack IS greedy        |
+| 0-1 Fractional KnapSack     | TODO      |  Content         |    0-1 KnapSack is dp, 0-1 Fractional knapsack IS greedy  |
 
 ** Note Graph Algorithms may differ in run time dependending on the Data structure used.
 For instance if implemented with a matrix, access time is O(1), however, O(n^2) space
 is used. On the other hand, if implemented with a linked list, access time is at most 
 O(n + m) and the space complexity is O(n + m). 
-** Also the type of data structure used represent a graph can either be a matrix or a table of verticies with collisions - where each collision is an outgoing edge from the vertex. A linked list representation is useful when the graph of the algorithm is spars - i.e the graph 
+** Also the type of data structure used represent a graph can either be a matrix or a table of verticies with collisions - where each collision is an outgoing edge from the vertex. A linked list representation is useful when the graph of the algorithm is sparse - i.e the graph. A sparse graph is defined as a graph whose edges are at most the number of verticies. A dense graph can have more edges per verticies. 
 
 ## `Linear Programming`
 Simplex
