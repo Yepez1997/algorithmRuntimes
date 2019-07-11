@@ -68,6 +68,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | ------------- | ------------- | ------------- | ------------- |
 | Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
 | Edmonds Karp        | O(VE^2)    |   Content            |             | 
+| DINIC        | TODO    |   Content           |    Uses BFS to form a level graph and then do DFS at each node until encounter a blocking node     | 
 
 ## `Greedy Algorithms`
 | Algorithm  | Runtime |  Data Sturcture  | Note 
@@ -143,13 +144,17 @@ T(n) is :
 
  
 ## `Greedy Algs Notes` 
+  * [Greedy Notes](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/greedy.txt)
  
  
 ## `Dynamic Programming Notes`
-  *[DP Notes](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/dynamicProgramming.txt)
+  * [DP Notes](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/dynamicProgramming.txt)
 
 ## `Advanced Data Structures`
 ** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
+### Optimal Binary Search Tree 
+  * [Optimal BST](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/optimalBinarySearchTree.txt)
+#### Fenwick Tree (allows for logarithmic range queries)
 #### `KD-Trees (Geometric Datastructure)`
 #### `Dynamic Tree`s
 #### Splay Trees
@@ -163,7 +168,7 @@ T(n) is :
 | Space  | Runtime | Note |
 | ------------- | ------------- | ------------- | 
 | O(log{w}(n)) | O(min(log(w),log{w}(n))) | assumes we use Word Ram Model, let u = (2^w), Store HashTable   |
-#### Disjoint Sets
+#### Disjoint Sets / Union Find
 #### Y-fast tries 
 #### X-fast tries 
 #### B+ Trees
