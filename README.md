@@ -68,7 +68,7 @@ There exists different variations of graphs, i.e graphs can either be directed a
 | ------------- | ------------- | ------------- | ------------- |
 | Ford Fulkerson       | O(E(F*))  |  Content           | (F*) denotes the maximum flow in a tranformed network     |
 | Edmonds Karp        | O(VE^2)    |   Content            |             | 
-| DINIC        | TODO    |   Content           |    Uses BFS to form a level graph and then do DFS at each node until encounter a blocking node     | 
+| Dinic        | TODO    |   Content           |    Uses BFS to form a level graph and then do DFS at each node until encounter a blocking node     | 
 
 ## `Greedy Algorithms`
 | Algorithm  | Runtime |  Data Sturcture  | Note 
@@ -198,11 +198,10 @@ T(n) is :
 #### Skip Lists
 #### Prefix Tree (Trie)
 
+#### Linear Programming
+  * [Linear Programming Notes](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/linearProgramming.txt)
+
 # Soon to be on here: 
-* Multithreaded Algorithms
-* Amortized Analysis 
-* Möbius inversion
-* Linear Programming
 * Hashing (Cuckoo Hashing etc etc )
 * Semidefinite programming (maybe)
 
