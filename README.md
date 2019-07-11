@@ -146,6 +146,7 @@ T(n) is :
  
  
 ## `Dynamic Programming Notes`
+  *[DP Notes](https://github.com/Yepez1997/techNotes/blob/master/dataStructureAlgs/dynamicProgramming.txt)
 
 ## `Advanced Data Structures`
 ** Will soon implement operations and the cost (running time) for each supported operation for each individual data structure
@@ -170,6 +171,7 @@ T(n) is :
 #### B Trees
 #### Tiered Bit Vectors 
 #### Bloomier Filters 
+#### Counting Bloom Filters
 
 
 ## `Elementary Data Structures` 
